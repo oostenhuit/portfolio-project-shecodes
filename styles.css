@@ -1,1 +1,74 @@
+:root {
+  --body-font: "Work Sans", sans-serif;
+  --header-font: "Syne", sans-serif;
+  --primary-color: #d28eb1;
+  --main-grey: #d9d9d9;
+}
 
+h2 {
+  font-family: var(--header-font);
+  font-weight: medium;
+  font-size: 50px;
+}
+h4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h5 {
+  font-size: 24px;
+  line-height: 30px;
+  border-left: black solid 2px;
+  padding-left: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+}
+.hero {
+  padding: 100px;
+}
+
+.hero-left {
+  margin-top: 150px;
+}
+.hero-left h1 {
+  font-family: var(--header-font);
+  font-size: 38px;
+  max-width: 450px;
+}
+
+.black-bracket {
+  max-width: 80px;
+  background-color: black;
+  height: 4px;
+  margin-bottom: 40px;
+}
+.marker-left {
+  background-color: black;
+  height: 30px;
+  width: 2px;
+  margin-right: 32 px;
+}
+.primary-button {
+  background-color: var(--primary-color);
+  color: black;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.project-description {
+  background-color: white;
+  padding: 32px 60px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
+}
+.view-more-link {
+  color: var(--primary-color);
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
