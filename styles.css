@@ -3,8 +3,13 @@
   --header-font: "Syne", sans-serif;
   --primary-color: #d28eb1;
   --main-grey: #d9d9d9;
+  --secondary-color: #6198ad;
 }
-
+h1 {
+  font-family: var(--header-font);
+  font-size: 32px;
+  font-weight: bold;
+}
 h2 {
   font-family: var(--header-font);
   font-weight: medium;
@@ -23,9 +28,16 @@ h5 {
 }
 
 p {
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 21px;
 }
+
+.about-section {
+  background-color: var(--secondary-color);
+  padding: 60px 0;
+}
+
 .hero {
   padding: 100px;
 }
@@ -45,6 +57,11 @@ p {
   height: 4px;
   margin-bottom: 40px;
 }
+.core-image {
+  padding: 30px;
+  margin: 20px 0;
+}
+
 .marker-left {
   background-color: black;
   height: 30px;
@@ -54,6 +71,17 @@ p {
 .primary-button {
   background-color: var(--primary-color);
   color: black;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.primary-button:hover {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  text-decoration: none;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -107,6 +135,25 @@ p {
 }
 
 @media (max-width: 992px) {
+  .about-section {
+    padding: 20px;
+  }
+
+  .about-section img {
+    padding: 20px 30px;
+  }
+
+  .about-section h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about-section a {
+    display: block;
+    text-align: center;
+  }
+
   .hero {
     background-color: var(--main-grey);
     padding: 0 20px 70px;
@@ -116,5 +163,16 @@ p {
     left: 0px;
     margin: 10px 16px;
     padding: 24px 40px;
+  }
+  .values img {
+    padding: 30px;
+  }
+
+  .values p {
+    padding: 0 20px;
+  }
+  .values img {
+    padding: 20px 80px 0;
+    margin: 10px 0;
   }
 }
