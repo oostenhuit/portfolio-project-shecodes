@@ -180,7 +180,20 @@ footer a:hover {
   text-decoration: none;
   color: var(--secondary-color);
 }
-
+.work-description ul {
+  list-style: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: right;
+}
+.work-description p {
+  max-width: 500px;
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
 .work-number {
   margin-top: -60px;
   position: absolute;
