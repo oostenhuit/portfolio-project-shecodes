@@ -77,6 +77,10 @@ footer a:hover {
   background-color: var(--secondary-color);
   padding: 60px 0;
 }
+.contact-section {
+  background-color: var(--primary-color);
+  padding: 100px 20px;
+}
 
 .hero {
   padding: 100px;
@@ -103,6 +107,13 @@ footer a:hover {
   margin: 20px 0;
 }
 
+.mail-link {
+  color: white;
+}
+.mail-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 .marker-left {
   background-color: black;
   height: 30px;
@@ -162,6 +173,12 @@ footer a:hover {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.view-more-link:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .work-number {
