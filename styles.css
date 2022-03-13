@@ -194,7 +194,7 @@ footer a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 30px;
-  text-align: right;
+  padding: 0;
 }
 .work-description p {
   max-width: 500px;
