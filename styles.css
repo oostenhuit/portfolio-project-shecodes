@@ -27,8 +27,8 @@ h5 {
   padding-left: 32px;
 }
 
-nav .navbar {
-  background-color: green;
+.nav-item {
+  padding: 0 30px;
 }
 
 nav a {
@@ -36,6 +36,9 @@ nav a {
 }
 nav .navbar-brand {
   font-family: var(--header-font);
+}
+nav .active {
+  font-weight: bold;
 }
 
 p {
@@ -58,7 +61,8 @@ p {
 }
 .hero-left h1 {
   font-family: var(--header-font);
-  font-size: 28px;
+  font-size: 37px;
+  font-weight: 600;
   max-width: 450px;
 }
 
