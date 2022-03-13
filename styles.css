@@ -176,6 +176,11 @@ footer a:hover {
 }
 
 @media (max-width: 992px) {
+  footer ul {
+    margin: 20px;
+    padding: 0px;
+  }
+
   .about-section {
     padding: 20px;
   }
