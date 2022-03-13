@@ -47,6 +47,32 @@ p {
   line-height: 21px;
 }
 
+footer ul {
+  margin: 100px 20px 50px;
+}
+footer li {
+  list-style: none;
+  color: var(--secondary-color);
+}
+
+footer h6 {
+  font-style: var(--body-font);
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin: 3px 10px 0px;
+}
+
+footer h6:hover {
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
 .about-section {
   background-color: var(--secondary-color);
   padding: 60px 0;
