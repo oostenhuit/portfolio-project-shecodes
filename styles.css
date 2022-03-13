@@ -180,6 +180,14 @@ footer a:hover {
   text-decoration: none;
   color: var(--secondary-color);
 }
+.work-description a {
+  color: var(--primary-color);
+}
+.work-description a:hover {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
 .work-description ul {
   list-style: none;
   font-size: 12px;
