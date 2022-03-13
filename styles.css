@@ -27,6 +27,17 @@ h5 {
   padding-left: 32px;
 }
 
+nav .navbar {
+  background-color: green;
+}
+
+nav a {
+  font-family: var(--body-font);
+}
+nav .navbar-brand {
+  font-family: var(--header-font);
+}
+
 p {
   font-family: var(--body-font);
   font-size: 16px;
