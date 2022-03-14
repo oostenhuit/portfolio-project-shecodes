@@ -55,7 +55,7 @@ footer li {
   color: var(--secondary-color);
 }
 
-footer h6 {
+footer p {
   font-style: var(--body-font);
   font-size: 12px;
   line-height: 20px;
@@ -65,7 +65,7 @@ footer h6 {
   margin: 3px 10px 0px;
 }
 
-footer h6:hover {
+footer p:hover {
   font-weight: bold;
 }
 
