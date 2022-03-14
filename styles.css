@@ -68,7 +68,12 @@ footer p {
 footer p:hover {
   font-weight: bold;
 }
-
+footer .final-note {
+  color: var(--primary-color);
+}
+footer a {
+  color: var(--secondary-color);
+}
 footer a:hover {
   text-decoration: none;
 }
@@ -225,6 +230,8 @@ footer a:hover {
 
   .about-section img {
     padding: 20px 30px;
+    margin: auto;
+    display: block;
   }
 
   .about-section h1 {
